@@ -1,0 +1,43 @@
+
+.menu {
+    width: 100%;
+    // padding: 5px;
+    margin: 0 auto;
+    border-bottom: 1px solid gray;
+    background-color:$azulito;
+  
+}
+
+.logo {
+    font-size: $x-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    top: 15px;
+    left: 70px;
+    font-family: $font-family ;
+}
+
+.nav {
+    
+    text-align: right;
+    position: relative;
+    right: 30px;
+    bottom: 10px;
+}
+ul{
+    word-spacing: 10px;
+
+li{
+    display: inline;
+    list-style: none;
+}
+}
+.nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.input-menu {
+    border-radius: 30px;
+}

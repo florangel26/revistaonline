@@ -1,0 +1,33 @@
+
+.newsletter {
+   width: 100%;
+    display: inline-block;
+    background-color:$clarito;
+    text-align: center;
+    padding: 30px;
+    margin-top: -25px;
+    line-height: 30px;
+    
+  
+}
+
+.newsletter h2 {
+    font-size: 24px;
+    $font-family : 'Roboto Mono', monospace;
+}
+
+.group input,
+.group button {
+    display: inline-block;
+    border-width: 0;
+    font-size: 13px;
+    padding: 5px 10px;
+    color: gray;
+    border: 1px solid gray
+
+}
+
+.group button {
+    background-color: coral;
+    color:white;
+}
